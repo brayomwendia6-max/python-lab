@@ -6,5 +6,7 @@ print(f"The square: {square(number)}")
 print(f"Even: {is_even(number)}")
 print(f"Celsius: {celsius_to_fahrenheit(number)}")
 
-      
-      
+from utils import greet
+
+name = input("Enter your name: ")
+print(greet(Brian))
