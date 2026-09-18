@@ -6,6 +6,7 @@ def is_even(x):
 def celsius_to_fahrenheit(celsius):
     return (celsius * 9/5) + 32
 def greet(name):
+    """Return a greeting message."""
     return f"Hello, {name}!"
     
     
